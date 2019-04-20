@@ -1,0 +1,30 @@
+int moveMaxToFront(ListNode **ptrHead){
+    /* Write your program code here. */
+    int index=0;
+    int res=-1;
+    int max=-99;
+    ListNode *cur;
+    cur=*ptrHead;
+    while (cur){
+        if (cur->item >max){
+            max=cur->item;
+            res= index;
+        }
+        else if (cur->item == max){
+            res= -1;
+        }
+        index++;
+        cur=cur->next;
+    }
+    if (res==-1 || res==0){
+        return res;
+    }
+    else{
+        ListNode *temp1;
+        temp1=findNode(*ptrHead, res-1);
+        int num=findNode(*ptrHead, res)->item;
+        temp1->next= temp1->next->next;
+        insertNode(ptrHead, 0, num);
+        return res;
+    }
+}
