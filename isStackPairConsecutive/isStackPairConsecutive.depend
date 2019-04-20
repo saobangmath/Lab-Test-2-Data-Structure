@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1553566562 source:d:\ntu cs\cz1007-data structure\labs and tuts\isstackpairconsecutive\main.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+

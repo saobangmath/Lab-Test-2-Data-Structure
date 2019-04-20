@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1550839677 source:d:\ntu cs\cz1007-data structure\labs and tuts\deputy_chef\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1552667757 source:d:\ntu cs\cz1007-data structure\labs and tuts\n insertsortedll\main.c
+	<stdio.h>
+	<stdlib.h>
+

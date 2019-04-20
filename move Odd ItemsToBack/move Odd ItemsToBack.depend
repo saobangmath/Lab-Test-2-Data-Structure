@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1552724985 source:d:\ntu cs\cz1007-data structure\labs and tuts\move odd itemstoback\main.c
+	<stdio.h>
+	<stdlib.h>
+

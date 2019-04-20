@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1548863045 source:d:\ntu cs\cz1007-data structure\labs and tuts\findtarget\main.c
+	<stdio.h>
+	<string.h>
+

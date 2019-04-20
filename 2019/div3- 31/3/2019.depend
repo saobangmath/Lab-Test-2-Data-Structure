@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1554042142 source:d:\ntu cs\cz1007-data structure\labs and tuts\2019\div3- 31\3\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+
